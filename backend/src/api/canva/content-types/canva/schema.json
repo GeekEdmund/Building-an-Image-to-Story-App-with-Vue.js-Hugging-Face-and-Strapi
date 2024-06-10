@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "canvas",
+  "info": {
+    "singularName": "canva",
+    "pluralName": "canvas",
+    "displayName": "canva"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "canva": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
